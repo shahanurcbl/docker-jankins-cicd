@@ -5,10 +5,10 @@ FROM openjdk:17-jdk-slim AS build
 WORKDIR /app
 
 # Copy the packaged JAR file into the container at /app
-COPY target/jenkins-docker-integration.jar /app/jenkins-docker-integration.jar
+COPY target/jenkins-docker-cicd.jar /app/jenkins-docker-cicd.jar
 
 # Expose the port that your Spring Boot application uses (default is 8080)
 EXPOSE 8082
 
 # Command to run the Spring Boot application when the container starts
-ENTRYPOINT ["java", "-jar", "/app/jenkins-docker-integration.jar"]
+ENTRYPOINT ["java", "-jar", "/app/jenkins-docker-cicd.jar"]

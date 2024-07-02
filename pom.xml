@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tonmoy</groupId>
-	<artifactId>jenkins-docker-integration</artifactId>
+	<artifactId>jenkins-docker-cicd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>jenkins-docker-integration</name>
 	<description>Demo project for Spring Boot with jenkins &amp; docker</description>
